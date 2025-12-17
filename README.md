@@ -141,5 +141,9 @@ dataset/
 |weighted avg |    0.9677  |  0.9666 |   0.9665  |     419
 
 Пока обучались только на одном боссфайте, но в репозитории есть интерфейс для объединения датасетов с разных боссфайтов в один и экстраполяции модели  
-<img width="1113" height="237" alt="image" src="https://github.com/user-attachments/assets/69d7be61-4e1a-4dd5-8878-375175956950" />
+<img width="1113" height="237" alt="image" src="https://github.com/user-attachments/assets/69d7be61-4e1a-4dd5-8878-375175956950" />  
+  
+В `inference.ipynb` реализована live-версия модели, вот скриншоты её работы:  
+<img width="949" height="548" alt="image_2025-12-17_06-27-11" src="https://github.com/user-attachments/assets/f615922c-4486-471a-b2a9-ba879a3a2bc6" />
+<img width="891" height="437" alt="image_2025-12-17_06-40-44" src="https://github.com/user-attachments/assets/d3bf917e-bef8-4a81-88ed-4424abf7b10f" />
 
