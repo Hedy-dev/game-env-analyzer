@@ -126,6 +126,97 @@ dataset/
 └── annotations.xml
 ```
 
+### Содержание датасета
+Для данной работы были выбраны следующие противники: _Hornet_, _Crystal Guard_ и _False Knight_.
+Ниже представлены примеры данных и статистика датасета для каждого противника.
+
+<table>
+  <tr>
+    <td colspan="5" align="center">
+      <h3>Hornet</h3>
+      <p><em>Состояния противника Hornet</em></p>
+    </td>
+  </tr>
+  <tr align="center">
+    <td><img src="https://github.com/user-attachments/assets/bc2e885d-f547-48da-86cd-e468aa92b304" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/d9ac54e7-e225-4f1a-8eba-380816107f57" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/2fd8b84f-4efb-4a25-bbc9-7eaa0c9de177" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/30ea0f42-87f2-40db-91ad-78cdd5e2d06b" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/e9c1c18e-5c28-4c40-a06e-9b549718b363" width="120"></td>
+  </tr>
+  <tr align="center">
+    <td><b>Не производит атаку</b><br>на игрока</td>
+    <td>Атака <b>hornet_ram</b></td>
+    <td>Атака <b>hornet_throw</b></td>
+    <td>Атака <b>hornet_drill</b></td>
+    <td>Атака <b>hornet_silk</b></td>
+  </tr>
+  <tr align="center" style="border-top: 1px solid #ddd;">
+    <td><small>Количество примеров: 1496</small></td>
+    <td><small>Количество примеров: 170</small></td>
+    <td><small>Количество примеров: 146</small></td>
+    <td><small>Количество примеров: 219</small></td>
+    <td><small>Количество примеров: 64</small></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="4" align="center">
+      <h3>Crystal Guard</h3>
+      <p><em>Состояния противника Crystal Guard</em></p>
+    </td>
+  </tr>
+  <tr align="center">
+    <td><img src="https://github.com/user-attachments/assets/000ed20c-cdb6-441f-a5e2-1e88609e9994" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/5657817b-ed1b-4c0d-b3e7-86019e83580b" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/94b46e7c-bb71-40ff-af6f-2be8150a7399" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/c660f24f-7688-44f3-ad3c-a4fc6e033077" width="120"></td>
+  </tr>
+  <tr align="center">
+    <td><b>Не производит атаку</b><br>на игрока</td>
+    <td>Атака <b>Scream and beams</b></td>
+    <td>Атака <b>Jump</b></td>
+    <td>Атака <b>Hand laser</b></td>
+  </tr>
+  <tr align="center" style="border-top: 1px solid #ddd;">
+    <td><small>Количество примеров: 517</small></td>
+    <td><small>Количество примеров: 222</small></td>
+    <td><small>Количество примеров: 261</small></td>
+    <td><small>Количество примеров: 453</small></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="5" align="center">
+      <h3>Hornet</h3>
+      <p><em>Состояния противника False Knight</em></p>
+    </td>
+  </tr>
+  <tr align="center">
+    <td><img src="https://github.com/user-attachments/assets/401b2a0d-b0f1-4584-8a61-034c6e8c6443" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/3436d56d-b2d0-4ce1-9bdb-1f3b18364956" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/df7de093-6b39-421e-8f3c-f6f6d9ca23e5" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/4bd155dc-0fbe-40a9-b049-729e6294896b" width="120"></td>
+    <td><img src="https://github.com/user-attachments/assets/454726d6-6422-4846-af67-c6d46368571f" width="120"></td>
+  </tr>
+  <tr align="center">
+    <td><b>Не производит атаку</b><br>на игрока</td>
+    <td>Атака <b>Throwing wave</b></td>
+    <td>Атака <b>Hit from heaven</b></td>
+    <td>Атака <b>Left-right smash</b></td>
+    <td>Атака <b>Jump</b></td>
+  </tr>
+  <tr align="center" style="border-top: 1px solid #ddd;">
+    <td><small>Количество примеров: 1172</small></td>
+    <td><small>Количество примеров: 264</small></td>
+    <td><small>Количество примеров: 469</small></td>
+    <td><small>Количество примеров: 256</small></td>
+    <td><small>Количество примеров: 346</small></td>
+  </tr>
+</table>
+
 ## Эксперименты и метрики
 Результаты:  
 |             | precision  |  recall | f1-score  | support
