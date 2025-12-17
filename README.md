@@ -190,7 +190,7 @@ dataset/
 <table>
   <tr>
     <td colspan="5" align="center">
-      <h3>Hornet</h3>
+      <h3>False Knight</h3>
       <p><em>Состояния противника False Knight</em></p>
     </td>
   </tr>
